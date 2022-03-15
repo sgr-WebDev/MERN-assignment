@@ -10,7 +10,4 @@ router.post("/addStudent", studentController.addStudent);
 router.delete("/delete/:id", studentController.delete);
 router.put("/updateStudent", studentController.updateStudent);
 
-// router.patch('/paymentCleared', invoiceController.pamentcleared);
-// router.delete('/deletedraft', draftController.deletedraft);
-
 module.exports = router;
